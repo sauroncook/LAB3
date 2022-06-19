@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+ <html>
+
+<head>
+    <title>LAB3</title>
+    <style>ul#First {display:inline-block ;}</style>
+</head>
+<body>
+    <table border="1">
+    <tr>
+        <th colspan="2">Pizza shop 2.0</th>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td colspan="2">
+                <form id="feedback" ><input type="tel" name="name1" required placeholder="Pablo"/></form>
+        </td>
+    </tr>
+    <tr >
+        <td > Pizza Toping</td>
+        <td colspan="2" > 
+                <input type="radio" id="supreme" name="radio" ><label for="supreme">Supreme</label><br>
+                <input type="radio" id="veg" name="radio" ><label for="veg">Vegetarian</label><br>
+                <input type="radio" id="hawai" name="radio" ><label for="hawai">Hawaiian</label>
+        </td>
+    </tr>
+    <tr >
+        <td >Pizza Sauce</td>
+        <td colspan="2" > 
+             <select name="Pizza Sauce">
+                 <option >Tomato</option>
+                 <option >Pesto</option>
+                 <option>Marinara</option>
+             </select>
+            
+        </td>
+    </tr>
+    <tr >
+        <td >Optional Extras</td>
+        <td colspan="2" > 
+                <input type="checkbox" id="cheese" name="cheese" >
+                <label>Extra Cheese</label>
+                <input type="checkbox" id="base" name="base" >
+                <label>Glutten Free Base</label>
+        </td>
+    </tr>
+    <tr >
+        <td colspan="3" >
+            <form id="list" >
+                <lable>Delivery instructions: <br> <textarea name="comment" rows="10" cols="40"></textarea></lable>
+            </form>
+        </td>
+    </tr>
+    <tr >
+        <td colspan="3"> <input type="submit" value="Send my order"/></td>
+    </tr>
+    </table>
+</body>
+
+</html>
